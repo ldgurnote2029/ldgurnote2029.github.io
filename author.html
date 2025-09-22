@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>SA1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Lexend+Exa:wght@100..900&family=Zen+Dots&display=swap" rel="stylesheet">
+            <style>  
+            .jersey-10-regular {
+            font-family: "Jersey 10", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+            .lexend-exa {
+            font-family: "Lexend Exa", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+            .zen-dots-regular {
+            font-family: "Zen Dots", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+
+            body {
+                background-image: url(full.png);
+                margin:0px;
+                font-family: 'avenir next medium';
+                
+            }
+            .heading {
+                background-color: #ffffff; 
+                display: flex;             
+                justify-content: center;
+                align-items: center;
+                background-size: cover;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                width:1920px;
+                height: 150px;
+            }
+            .heading img {
+                width:100px;
+                height:100px;
+                margin: 40px;
+            }
+            .intro {
+                width: 1920px;
+                height: 1080px;
+                background-image: url("full.png"),url("invertbg.png");
+                background-size: cover;
+                background-position: center, center;
+                background-repeat: no-repeat, no-repeat;
+                margin-bottom:0px ;
+                padding: 0px;
+                margin:0px;
+            }
+            .me {
+                position:absolute;
+                left: 110px;
+                bottom: 20px;
+                top: 350px;
+                color:#000000;
+                border-radius: 40px;
+                width: 500px;
+                height:500px;
+                text-align:center;
+                align-items:center;
+                
+            }
+            .me img {
+                width:500px;
+                height: 500px;
+                padding:0px;
+                margin-top: 5px;
+                border-radius: 40px;
+            }
+             .introtext {
+                position:absolute;  
+                left:525px;       
+                top: 100px;
+                width: 900px;
+                height:530px;
+                text-align:center;
+                font-family: 'zen dots';
+                font-size: 60px;
+                color:#ffe797;
+                text-shadow: 5px 5px #caac4ad7 ;
+                letter-spacing: 3px;
+            }
+            .introabout {
+                position:absolute;
+                left: 630px;
+                right: 640px;
+                bottom: 20px;
+                top: 350px;
+                background-color: #ffffffdd;
+                border-radius: 40px;
+                width: 690px;
+                height:820px;
+                text-align:left;
+                font-size:50px;
+            }
+            .introabout h1 {
+                font-family: 'zen dots';
+                margin-left: 40px;
+                color: #dddd7b;  
+                text-shadow: 3px 3px #b6b65ce6;
+                font-size: 47px;
+                margin-bottom: 0px;
+                padding:0px;
+                
+            }
+            .introabout h2 {
+                font-family: 'jersey 10';
+                margin-left: 40px;
+                color: #ffdbdf;  
+                text-shadow: 3px 3px #f691a9da;
+                letter-spacing: 1px;
+                font-size: 35px;
+                margin-top: 10px;
+                padding:0px;
+                margin-bottom: 0px;
+            }
+            .introabout img {
+                width:400px;
+                height: 300px;
+                padding:0px;
+                margin-top: 15px;
+                border-radius: 40px;
+                margin-left: 40px;
+            
+            }
+            .info {
+                position:absolute;
+                left: 110px;
+                top: 870px;
+                background-color: #ffffffdd;
+                border-radius: 40px;
+                width: 500px;
+                height:300px;
+                text-align:center;
+                font-size:50px;
+                align-items: center;
+            }
+            .info h1 {
+                font-family: 'zen dots';
+                text-align: center;
+                color: #dddd7b;  
+                text-shadow: 3px 3px #b6b65ce6;
+                font-size: 47px;
+                margin-bottom: 0px;
+                padding:0px;
+                
+            }
+            .info h2 {
+                font-family: 'jersey 10';
+                text-align: center;
+                color: #ffdbdf;  
+                text-shadow: 3px 3px #f691a9da;
+                letter-spacing: 1px;
+                font-size: 35px;
+                margin-top: 10px;
+                padding:0px;
+                margin-bottom: 0px;
+            }
+            .info img {
+                width:450px;
+                height: 700px;
+                padding:0px;
+                margin-top: 10px;
+            }
+            .others {
+                position:absolute;
+                left: 1025px;
+                top: 485px;
+                border-radius: 40px;
+                width: 300px;
+                height:300px;
+                text-align:center;
+                font-size:50px;
+                align-items: center;
+            }
+            .others img {
+                width:180px;
+                height: 135px;
+                padding:0px;
+                margin-top: 15px;
+                border-radius: 40px;
+                margin-left: 40px;
+            
+            }
+            .concerts {
+                position:absolute;
+                right: 110px;
+                top: 350px;
+                background-color: #ffffffdd;
+                border-radius: 40px;
+                width: 455px;
+                height:780px;
+                text-align:center;
+                font-size:50px;
+                align-items: center;
+            }
+            .concerts h1 {
+                font-family: 'zen dots';
+                text-align: center;
+                color: #dddd7b;  
+                text-shadow: 3px 3px #b6b65ce6;
+                font-size: 47px;
+                margin-bottom: 0px;
+                padding:0px;
+                
+            }
+            .concerts h2 {
+                font-family: 'jersey 10';
+                text-align: center;
+                color: #ffdbdf;  
+                text-shadow: 3px 3px #f691a9da;
+                letter-spacing: 1px;
+                font-size: 35px;
+                margin-top: 10px;
+                padding:0px;
+                margin-bottom: 0px;
+            }
+            .concerts img {
+                width: 210px;
+                height: 280px;
+                border-radius: 40px;
+                padding:0px;
+                margin-top: 20px;
+            }
+            
+        </style>
+    </head>
+	<body>
+            <div class="heading">
+            
+                <div class="headhome">
+                    <a href="index.html"><img src="home.png" alt="home icon"></a>
+                </div>
+                <div class="headabout">
+                    <a href="about.html"><img src="about.png" alt="about icon"></a>
+                </div>
+                <div class="headmusic">
+                    <a href="music.html"><img src="music.png" alt="music icon"></a>
+                </div>
+                <div class="headnew">
+                    <a href="events.html"><img src="new.png" alt="new icon"></a>
+                </div>
+                <div class="headauthor">
+                    <a href="author.html"><img src="author.png" alt="author icon"></a>
+                </div>
+            </div>
+            
+            <div class="intro">
+            <div class="me">
+                <img src="ako.JPG" alt="me">
+            </div>
+            <div class="introtext">
+                <h1>ABOUT ME</h1>
+            </div>
+            <div class="introabout">
+                <h1>MY STANLIST!</h1>
+                <h2>Please check them out they're funny :D</h2>
+                <img src="https://i.pinimg.com/736x/51/42/ee/5142ee59792fdd26c337ff6eacdc4c66.jpg" alt="bts"><br>
+                <img src="https://i.pinimg.com/1200x/6c/19/d3/6c19d37f9d43a9a0361ff84ee7f0da0e.jpg" alt="skz">
+                
+            </div>
+            <div class="others">
+                <img src="https://i.pinimg.com/736x/87/6e/b6/876eb66378b43b0ee3b492c802d93d14.jpg" alt="twice">
+                <img src="https://i.pinimg.com/736x/60/d9/a6/60d9a620caa1d8d62262079b37fae1d3.jpg" alt="bnd">
+                <img src="https://i.pinimg.com/1200x/08/3e/d8/083ed8674596dcdf353b098fc46b151f.jpg" alt="itzy">
+                <img src="https://i.pinimg.com/1200x/77/e4/d8/77e4d834e762112daf98aaf6f698ac65.jpg" alt="xg">
+            </div>
+            <div class="info">
+                <h1>INFORMATION</h1>
+                <h2>
+                Leane Miguelle D. Gurnote <br>
+                    June 10, 2010<br>
+                    15 years old<br>
+                    9 - Balingkilat<br>
+                    Batch 2029<br>
+                </h2>
+            </div>
+            <div class="concerts">
+                <h1>CONCERTS</h1>
+                <h2>
+                Concerts I've attended
+                </h2>
+                <img src="maniac.jpg" alt="maniac">
+                <img src="https://pbs.twimg.com/media/FyoAxn0WwAIqrCI?format=jpg&name=small" alt="rtb">
+                <img src="https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-6/490848286_1124825946348317_704708671822689407_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7BeYl94ZgogQ7kNvwH5gM8h&_nc_oc=AdmLPfUUZUv7c0xeV5PE83R9pte_W1neDBSxUKXX5aJJUTJOC3bEQUMZVFofjUlmIqc&_nc_zt=23&_nc_ht=scontent.fcrk1-3.fna&_nc_gid=SXoO8-yxCUIfuW0ud8wAoQ&oh=00_AfbFsfR1PeU8WetDakpCCl3q7OvLmyJAybBREowKmiB5EA&oe=68D4A5CB" alt="dominate">
+                <img src="https://res.klook.com/image/upload/x_0,y_850,w_4500,h_6300,c_crop/c_scale,w_360/v1738744042/events_admin/bzkrktnehcvfpnu6rkjn.jpg" alt="hots">
+
+            </div>
+
+
+            
+        </div>
+        
+		
+	</body>
+    </html>
